@@ -9,7 +9,7 @@
 - create an application password:
   first of all you need to say the program what is your email, for this you need to have an application password created inside of your gmail.
 
-- create a file: you will need to put your email and the app password in variables inside a file with name you want, in my case was `.env`, create it on the root of the proyect. I name the variables `smtp_username` and `smtp_password`
+- create a file: you will need to put your email and the app password in variables inside a file with name you want, in my case was `.env`, create it on the root of the proyect. I named the variables `smtp_username` and `smtp_password`
 
 - import the module on main.py so you can use the variables on the future, here is how i did it:
 
