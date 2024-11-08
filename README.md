@@ -77,4 +77,4 @@ folder = 'Promos'
 
 Dont forget to create an environment to install all the dependencies with conda or `python -m venv <the name of your env>`
 
-Use `python main.py` in the proyect root to run the code, and if you want to create an executable you only have to type `pyinstaller --onefile --console --name email_classifier --icon=icon.ico main.py` on the console. You will find the `.exe` on <b>dist/email_classifier.exe</b> if you ranned the <b>pyinstaller</b> command previously.
+Use `python main.py` in the proyect root to run the code, and if you want to create an executable you only have to type `pyinstaller --onefile --console --name email_classifier --icon=icon.ico main.py` on the console. You will find the `.exe` on <b>dist/email_classifier.exe</b> if you ran the <b>pyinstaller</b> command previously.
