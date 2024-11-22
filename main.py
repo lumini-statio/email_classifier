@@ -6,10 +6,8 @@ from email.header import decode_header
 
 load_dotenv()
 
-#imap sv
 imap_server = 'imap.gmail.com'
 
-#login credentials
 username = os.getenv('smtp_username')
 password = os.getenv('smtp_password')
 
@@ -26,7 +24,6 @@ for index, email_id in enumerate(email_ids):
 
     folder = None
 
-    #get the content of the mail
     res, msg = mail.fetch(email_id, '(RFC822)')
 
     print(f'{index + 1} de {len(email_ids)}')
